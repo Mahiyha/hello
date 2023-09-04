@@ -1,0 +1,33 @@
+/* src/Parallax.css */
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .parallax-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .parallax-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8); /* Overlay to improve text readability */
+  }
+  .visible {
+    opacity: 1;
+  }
+  
+  .hidden {
+    display: none;
+  }

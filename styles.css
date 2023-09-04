@@ -1,0 +1,92 @@
+/* Apply background color to the entire website */
+body {
+  background-color: #f0f0f0; /* Change to your preferred color */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the dashboard container */
+.dashboard-container {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  flex-wrap: wrap; 
+}
+
+/* Style for the game boxes container */
+.game-boxes {
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: inherit;
+  display: flex; /* Display game boxes in a flex container */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; 
+}
+
+/* Style for each game box */
+.game-box {
+  width: calc(20% - 20px); /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #333; /* Change border color and thickness */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color for the game name */
+  font-weight: bold;
+  font-size: 16px;
+}
+.game-box-inner {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.game-box-inner:hover {
+  transform: translateY(-5px);
+}
+
+.game-box-inner img {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.game-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.game-box-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+

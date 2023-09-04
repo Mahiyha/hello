@@ -1,0 +1,60 @@
+/* GrammarQuiz.css */
+body {
+  font-family: Arial, sans-serif;
+ 
+  margin :0;
+  padding: 0;
+  background-color: white;
+  justify-content: left;
+  border: #007BFF;
+  height: 800vh;
+  overflow: hidden; /*hide the scrolling*/
+ 
+}
+
+
+/* GrammarQuiz.css */
+.grammar-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  /* Set the height to 100% of the viewport height */
+  text-align: center;
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+
+
+li {
+  font-size: 44px;
+  margin: 40px 0;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: dotted;
+  text-shadow:rgb(0, 255, 106)
+  
+}
+
+li a {
+  text-decoration: none;
+  color: #1b64b8;   
+  transition: transform  0.3s ease;
+  flex-wrap: wrap;
+  
+  
+}
+.li a :hover
+{
+  transform: translateY(-5px);
+}
+
+li a:hover {
+  color: #965151; /* Hover color */
+}
