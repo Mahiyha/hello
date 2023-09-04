@@ -1,0 +1,60 @@
+/* src/App.css */
+
+
+ .App{
+  
+  justify-content: center;
+  align-items: center;
+  min-height: 800vh;
+  background-image: url("https://tickleright.com/wp-content/uploads/2021/06/TwJNiQvzcK.jpg");
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.login-form {
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #fafffe;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #f5f5f5;
+}
+
+.login-form h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
